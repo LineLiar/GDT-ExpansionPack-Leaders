@@ -1508,12 +1508,7 @@ var ExpPack = {};
 	};
 	UI._showContextMenu = new_showContextMenu;
 	/*  */
-})();
 	
-	/* Venomous */
-	
-	//compatibility check
-
 	var compatibilityCheck = function(data){
 	for (var i = 0; i < ModSupport.availableMods.length; i++) {
 	var mod = ModSupport.availableMods[i];
@@ -1541,7 +1536,4 @@ var ExpPack = {};
 	GDT.compatibilityCheckActive = true;
 	}
 	}
-	in ready function ExpansionMod.js
-
-	ExpPack.initCompatibilityChecks();
 })();
