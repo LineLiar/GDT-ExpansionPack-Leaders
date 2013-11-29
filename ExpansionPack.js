@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
 	var ready = function () {
 		
 	/* Adds topics to the game 			*/	
